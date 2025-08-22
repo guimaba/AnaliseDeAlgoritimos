@@ -1,3 +1,5 @@
+package Problema1p1;
+
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;

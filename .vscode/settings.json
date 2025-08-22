@@ -1,7 +1,14 @@
 {
+    
     "java.project.sourcePaths": ["src"],
     "java.project.outputPath": "bin",
     "java.project.referencedLibraries": [
         "lib/**/*.jar"
-    ]
+    ],
+    "type": "java",
+    "name": "Launch Main",
+    "request": "launch",
+    "mainClass": "Problema1p1.Main",
+    "projectName": "AnaliseDeAlgoritmos-FURB",
+    "classPaths": ["${workspaceFolder}/out"]
 }

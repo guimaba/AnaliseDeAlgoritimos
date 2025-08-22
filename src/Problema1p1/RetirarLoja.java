@@ -1,3 +1,5 @@
+package Problema1p1;
+
 public class RetirarLoja implements TipoFrete {
 
     @Override
