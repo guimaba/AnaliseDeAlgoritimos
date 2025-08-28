@@ -1,4 +1,4 @@
-package Problema1p2;
+package Problema2;
 
 public interface Subject {
     public void registerObserver(Observer observer);

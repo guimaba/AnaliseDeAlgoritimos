@@ -1,4 +1,4 @@
-package Problema1p2;
+package Problema2;
 
 public interface Observer {
     public void update();
