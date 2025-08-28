@@ -40,7 +40,7 @@ public class Investidor implements Observer {
     }
 
     @Override
-    public void update(Acao valor) {
-            System.out.println(this.nomeInvestidor + " valor atualizado da acao: " + valor);
+    public void update() {
+            System.out.println(this.nomeInvestidor + " valor atualizado da acao: " + acao.getValor());
     }
 }

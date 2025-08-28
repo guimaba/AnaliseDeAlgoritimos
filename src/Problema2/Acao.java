@@ -65,7 +65,7 @@ public class Acao implements Subject{
 
     public void notificar() {
         for (Investidor investidor : listaInvestidoresRegistrados) {
-            investidor.update(valor);
+            investidor.update();
         }
     }
 
