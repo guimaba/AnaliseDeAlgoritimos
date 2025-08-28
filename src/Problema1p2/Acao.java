@@ -65,7 +65,7 @@ public class Acao implements Subject{
 
     public void notificar() {
         for (Investidor investidor : listaInvestidoresRegistrados) {
-            System.out.println(investidor.getNomeInvestidor() + " valor atualizado da acao: " + valor);
+            investidor.update(valor);
         }
     }
 
