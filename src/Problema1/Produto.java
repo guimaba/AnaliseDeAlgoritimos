@@ -1,4 +1,4 @@
-package Problema1p1;
+package Problema1;
 
 public class Produto {
     private String nome;
